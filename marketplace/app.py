@@ -8,7 +8,7 @@
 \f0\fs24 \cf0 from flask import Flask, render_template, request, redirect, url_for\
 import sqlite3\
 \
-app = Flask(__name__)\
+app = flask(__name__)\
 \
 def init_db():\
     conn = sqlite3.connect('market.db')\
